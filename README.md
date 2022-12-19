@@ -1,5 +1,5 @@
 # ssh-geoblock
-Based of https://www.axllent.org/docs/ssh-geoip/ i've created/modified a script to block all SSH Login Attempts not from a Whitelist OR whitelist Country.
+Based of https://www.axllent.org/docs/ssh-geoip/ i've created/modified a script to block all SSH Login Attempts not from a Whitelist OR whitelist Country. Tested on Debian. If there is no geoiplookup, cou can modify the script to whatveer lookuptool you have.
 
 Installation:
 
