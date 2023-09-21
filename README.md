@@ -10,5 +10,5 @@ Installation:
  5. **ATTENTION: If you did somethign wrong, you need local/KVM access to the VM to repair**
  6. Modify `/etc/hosts.deny` --> add `sshd: ALL`
  7. Modify `/etc/hosts.allow` --> add `sshd: ALL: aclexec /path/to/sshCountryFilter.sh %a`
- 8. **ATTENTION: Keep current SSH sesseion open and TEST if you can connect!!**
+ 8. **ATTENTION: Keep current SSH session open and TEST if you can connect!!**
  9. If yes --> you can close the connection
